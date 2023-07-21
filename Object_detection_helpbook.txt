@@ -75,6 +75,13 @@ Pipeline Config in TensorFlow Object Detection:
 - A pipeline config is a text file defining the configuration and hyperparameters of an object detection model during training and evaluation.
 - It specifies model architecture, data input, training hyperparameters, evaluation settings, checkpoint paths, and the number of classes.
 
+
+uuid stands for "Universally Unique Identifier," and it is a standard Python library that provides functionality to generate unique identifiers.
+	imgname = os.path.join(IMAGES_PATH,label,label+'.'+'{}.jpg'.format(str(uuid.uuid1())))
+
+
+To summarize, by installing PyQt5, you can develop cross-platform desktop GUI applications, while lxml allows you to efficiently work with XML and HTML documents in your Python projects.
+
 model_main_tf2.py in TensorFlow Object Detection:
 
 - model_main_tf2.py is a higher-level script provided by TFOD for training and evaluating object detection models using TensorFlow 2.x.
